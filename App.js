@@ -50,7 +50,13 @@ const MainStack = createStackNavigator(
       headerStyle: {
         backgroundColor: '#04cf5e',
       },
+      headerTintColor: '#fff',
+      headerTitleStyle: {
+        fontWeight: '800',
+        fontSize: 18,
+      },
     },
+
     //initialRouteName: 'Youtube',
   },
 );
